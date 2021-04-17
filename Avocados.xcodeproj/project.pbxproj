@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1759F86B262B92AA00FC12AD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F86A262B92AA00FC12AD /* HeaderView.swift */; };
+		1759F86E262B98B500FC12AD /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F86D262B98B500FC12AD /* HeaderModel.swift */; };
+		1759F871262B997E00FC12AD /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F870262B997E00FC12AD /* HeaderData.swift */; };
 		1785D5A2262ACCF3002C6AD6 /* AvocadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1785D5A1262ACCF3002C6AD6 /* AvocadosApp.swift */; };
 		1785D5A4262ACCF3002C6AD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1785D5A3262ACCF3002C6AD6 /* ContentView.swift */; };
 		1785D5A6262ACCF5002C6AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1785D5A5262ACCF5002C6AD6 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		1759F86A262B92AA00FC12AD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1759F86D262B98B500FC12AD /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		1759F870262B997E00FC12AD /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		1785D59E262ACCF3002C6AD6 /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1785D5A1262ACCF3002C6AD6 /* AvocadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosApp.swift; sourceTree = "<group>"; };
 		1785D5A3262ACCF3002C6AD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 		1785D5B6262AF1E0002C6AD6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				1759F870262B997E00FC12AD /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 		1785D5B7262AF1EB002C6AD6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1759F86D262B98B500FC12AD /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -187,6 +193,8 @@
 				1785D5BE262AF270002C6AD6 /* RipeningStagesView.swift in Sources */,
 				1785D5A2262ACCF3002C6AD6 /* AvocadosApp.swift in Sources */,
 				1785D5BB262AF23F002C6AD6 /* AvocadosView.swift in Sources */,
+				1759F86E262B98B500FC12AD /* HeaderModel.swift in Sources */,
+				1759F871262B997E00FC12AD /* HeaderData.swift in Sources */,
 				1759F86B262B92AA00FC12AD /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
