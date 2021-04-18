@@ -17,6 +17,9 @@
 		1759F880262C112400FC12AD /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F87F262C112400FC12AD /* RecipeModel.swift */; };
 		1759F883262C36A700FC12AD /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F882262C36A700FC12AD /* RecipeData.swift */; };
 		1759F886262C371500FC12AD /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F885262C371500FC12AD /* RecipeCardView.swift */; };
+		1759F889262C459C00FC12AD /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F888262C459C00FC12AD /* RecipeRatingView.swift */; };
+		1759F88C262C48D500FC12AD /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F88B262C48D500FC12AD /* RecipeCookingView.swift */; };
+		1759F88F262C497100FC12AD /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759F88E262C497100FC12AD /* RecipeDetailView.swift */; };
 		1785D5A2262ACCF3002C6AD6 /* AvocadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1785D5A1262ACCF3002C6AD6 /* AvocadosApp.swift */; };
 		1785D5A4262ACCF3002C6AD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1785D5A3262ACCF3002C6AD6 /* ContentView.swift */; };
 		1785D5A6262ACCF5002C6AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1785D5A5262ACCF5002C6AD6 /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 		1759F87F262C112400FC12AD /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		1759F882262C36A700FC12AD /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		1759F885262C371500FC12AD /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		1759F888262C459C00FC12AD /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
+		1759F88B262C48D500FC12AD /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
+		1759F88E262C497100FC12AD /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		1785D59E262ACCF3002C6AD6 /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1785D5A1262ACCF3002C6AD6 /* AvocadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosApp.swift; sourceTree = "<group>"; };
 		1785D5A3262ACCF3002C6AD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +140,9 @@
 				1759F873262BA22500FC12AD /* DishesView.swift */,
 				1759F876262BB5E200FC12AD /* FactsView.swift */,
 				1759F885262C371500FC12AD /* RecipeCardView.swift */,
+				1759F888262C459C00FC12AD /* RecipeRatingView.swift */,
+				1759F88B262C48D500FC12AD /* RecipeCookingView.swift */,
+				1759F88E262C497100FC12AD /* RecipeDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -209,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1785D5C1262AF28F002C6AD6 /* SettingsView.swift in Sources */,
+				1759F889262C459C00FC12AD /* RecipeRatingView.swift in Sources */,
 				1785D5A4262ACCF3002C6AD6 /* ContentView.swift in Sources */,
 				1785D5C4262AF2A9002C6AD6 /* AppView.swift in Sources */,
 				1785D5BE262AF270002C6AD6 /* RipeningStagesView.swift in Sources */,
@@ -218,11 +228,13 @@
 				1759F880262C112400FC12AD /* RecipeModel.swift in Sources */,
 				1759F871262B997E00FC12AD /* HeaderData.swift in Sources */,
 				1759F874262BA22500FC12AD /* DishesView.swift in Sources */,
+				1759F88C262C48D500FC12AD /* RecipeCookingView.swift in Sources */,
 				1759F87A262BBA3B00FC12AD /* FactModel.swift in Sources */,
 				1759F877262BB5E200FC12AD /* FactsView.swift in Sources */,
 				1759F886262C371500FC12AD /* RecipeCardView.swift in Sources */,
 				1759F883262C36A700FC12AD /* RecipeData.swift in Sources */,
 				1759F86B262B92AA00FC12AD /* HeaderView.swift in Sources */,
+				1759F88F262C497100FC12AD /* RecipeDetailView.swift in Sources */,
 				1759F87D262BBA9400FC12AD /* FactData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
